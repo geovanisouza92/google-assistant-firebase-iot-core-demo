@@ -72,3 +72,6 @@ typings/
 !.vscode/extensions.json
 
 
+firmware/fs/rsa_cert.pem
+firmware/fs/rsa_private.pem
+credentials.json

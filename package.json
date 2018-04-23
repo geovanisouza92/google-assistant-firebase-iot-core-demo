@@ -1,0 +1,20 @@
+{
+  "name": "google-assistant-firebase-iot-core-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "npm --prefix functions install",
+    "deploy": "npm --prefix functions run deploy",
+    "generate-certificate": "openssl genrsa -out firmware/fs/rsa_private.pem 2048 && openssl rsa -in firmware/fs/rsa_private.pem -pubout -out firmware/fs/rsa_cert.pem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geovanisouza92/google-assistant-firebase-iot-core-demo.git"
+  },
+  "author": "Geovani de Souza <geovanisouza92@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geovanisouza92/google-assistant-firebase-iot-core-demo/issues"
+  },
+  "homepage": "https://github.com/geovanisouza92/google-assistant-firebase-iot-core-demo#readme"
+}

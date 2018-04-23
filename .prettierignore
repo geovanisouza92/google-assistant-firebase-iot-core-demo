@@ -1,0 +1,8 @@
+.vscode/*
+.firebaserc
+firebase.json
+package.json
+package-lock.json
+functions/.eslintrc
+functions/package.json
+functions/package-lock.json
